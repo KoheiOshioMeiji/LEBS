@@ -1,3 +1,15 @@
+# simulation_code.py
+# Author: Kohei Oshio (Meiji University)
+# License: CC-BY 4.0
+#
+# Description:
+# This Python script runs an agent-based simulation to reproduce the results presented in
+# Figure 2 of the manuscript submitted to Letters on Evolutionary Behavioral Science (LEBS).
+# Specifically, it models the effect of willingness to compromise and emotional reactivity
+# on reconciliation success rates in a Japanese family mediation context.
+# The script performs a parameter sweep across these dimensions, runs multiple simulations,
+# and generates a heatmap showing the proportion of successful reconciliations per condition.
+
 import numpy as np
 import matplotlib.pyplot as plt
 
